@@ -2,7 +2,7 @@ val scala3Version = "3.1.0"
 
 lazy val commonsSettings: Seq[Def.Setting[_]] = Seq(
   scalaVersion := scala3Version,
-  organization := "ru.zkerriga",
+  organization := "ru.zkerriga"
 )
 
 lazy val `cube` = (project in file("cube"))
