@@ -24,6 +24,14 @@ object Jars {
     val core = "com.softwaremill.sttp.tapir" %% "tapir-core" % version
   }
 
+  object akka {
+    val httpVersion = "10.2.7"
+    val akkaVersion = "2.6.17"
+
+    val stream = "com.typesafe.akka" %% "akka-stream" % akkaVersion
+    val http = ("com.typesafe.akka" %% "akka-http" % httpVersion).cross(CrossVersion.for3Use2_13)
+  }
+
   object scalatest {
     val version = "3.2.10"
 

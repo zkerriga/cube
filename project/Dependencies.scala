@@ -12,7 +12,9 @@ object Dependencies {
     cats.core,
     circe.core,
     circe.generic,
-    circe.parser
+    circe.parser,
+    akka.stream,
+    akka.http
   )
 
   private val testDependencies: Vector[ModuleID] = Vector(
