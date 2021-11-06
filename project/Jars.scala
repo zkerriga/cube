@@ -22,6 +22,13 @@ object Jars {
     val version = "0.19.0-M14"
 
     val core = "com.softwaremill.sttp.tapir" %% "tapir-core" % version
+    val circe = "com.softwaremill.sttp.tapir" %% "tapir-json-circe" % version
+    val cats = "com.softwaremill.sttp.tapir" %% "tapir-cats" % version
+
+    object openapi {
+      val docs = "com.softwaremill.sttp.tapir" %% "tapir-openapi-docs" % version
+      val circe = "com.softwaremill.sttp.tapir" %% "tapir-openapi-circe-yaml" % version
+    }
   }
 
   object akka {
