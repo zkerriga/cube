@@ -53,4 +53,10 @@ object Jars {
     val logging = "com.typesafe.scala-logging" %% "scala-logging" % version
   }
 
+  object pureconfig {
+    val version = "0.17.0"
+
+    val core = ("com.github.pureconfig" %% "pureconfig" % version).cross(CrossVersion.for3Use2_13)
+  }
+
 }
