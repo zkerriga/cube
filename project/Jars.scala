@@ -10,6 +10,12 @@ object Jars {
     val core = "org.typelevel" %% "cats-core" % coreVersion
   }
 
+  object monix {
+    val version = "3.4.0"
+
+    val execution = "io.monix" %% "monix-execution" % version
+  }
+
   object circe {
     val version = "0.14.1"
 

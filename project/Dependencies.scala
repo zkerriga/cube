@@ -19,7 +19,8 @@ object Dependencies {
     circe.parser,
     akka.stream,
     akka.http,
-    pureconfig.core
+    pureconfig.core,
+    monix.execution
   )
 
   private val testDependencies: Vector[ModuleID] = Vector(

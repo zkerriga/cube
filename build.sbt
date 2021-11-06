@@ -12,6 +12,7 @@ lazy val `cube` = (project in file("cube"))
     libraryDependencies ++= Dependencies.libraryDependencies,
     commonsSettings
   )
+  .dependsOn(`cube-core`)
 
 lazy val `cube-core` = (project in file("cube-core"))
   .settings(
