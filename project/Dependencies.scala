@@ -9,7 +9,10 @@ object Dependencies {
     logback.classic,
     logback.logging,
     cats.effect,
-    cats.core
+    cats.core,
+    circe.core,
+    circe.generic,
+    circe.parser
   )
 
   private val testDependencies: Vector[ModuleID] = Vector(

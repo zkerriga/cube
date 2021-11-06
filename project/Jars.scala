@@ -10,6 +10,14 @@ object Jars {
     val core = "org.typelevel" %% "cats-core" % coreVersion
   }
 
+  object circe {
+    val version = "0.14.1"
+
+    val core = "io.circe" %% "circe-core" % version
+    val generic = "io.circe" %% "circe-generic" % version
+    val parser = "io.circe" %% "circe-parser" % version
+  }
+
   object tapir {
     val version = "0.19.0-M14"
 
