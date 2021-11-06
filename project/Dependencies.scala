@@ -5,7 +5,9 @@ object Dependencies {
   import Jars._
 
   private val coreDependencies: Vector[ModuleID] = Vector(
-    tapir.core
+    tapir.core,
+    logback.classic,
+    logback.`scala-logging`
   )
 
   private val testDependencies: Vector[ModuleID] = Vector(

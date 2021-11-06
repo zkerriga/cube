@@ -15,4 +15,11 @@ object Jars {
     val scalatest = "org.scalatest" %% "scalatest" % version % Test
   }
 
+  object logback {
+    val version = "3.9.4"
+
+    val classic = "ch.qos.logback" % "logback-classic" % "1.2.6"
+    val `scala-logging` = "com.typesafe.scala-logging" %% "scala-logging" % version
+  }
+
 }
